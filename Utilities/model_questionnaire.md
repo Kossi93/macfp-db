@@ -1,17 +1,10 @@
-INSTRUCTIONS:
-1. Fill out the form below (view as "Raw" [see button upper-right], cut and past into a plain text editor).
-2. Delete this block of instructions
-3. Save the file to README.md
-4. Include the README.md file in the .zip file you email to the team leaders.
-
----- delete from here up ----
 
 ### Contributor
-Name:
+Name: Kossigan Bernard DEDEY, Serge BOURBIGOT
 
-Institution:
+Institution: UMET (Centrale Lille Institut)
 
-Country:
+Country: France
 
 ------------------
 
@@ -20,24 +13,26 @@ Country:
 ------------------
 
 ### CFD package
-Code:
+Code:COMSOL Multiphysics
 
-Version:
+Version: 6.1
 
 ------------------
 
 ### Resolution
 
 #### Computational domain discretization (flow solver)
-Domain:
+Domain: 3D
 
-Cell size:
+Cell size: 
 
 Cell type:
 
 Total cells:
 
-Comments:
+Comments: The complete model mesh comprised of 3248 tetrahedra elements (PMMA and Kaowool) and a minimum element size of 0.1867 mm (fine size).
+
+![image](https://github.com/MaCFP/macfp-db/assets/53606808/81f4be21-1656-4136-8adb-ff9b31347820)
 
 #### Angular space discretization (radiation solver)
 Number of solid angles:
@@ -47,12 +42,13 @@ Comments:
 ------------------
 
 ### Initial conditions
-Comments:
+Comments: Can be found the model description in the Abstract file.
+
 
 ------------------
 
 ### Boundary conditions
-Comments:
+Comments: Can be found the model description in the Abstract file.
 
 ------------------
 
@@ -67,7 +63,7 @@ Radiative fraction: (predicted or prescribed; if prescribed, what value)
 
 Soot model:
 
-Comments:
+Comments: Can be found the model description in the Abstract file.
 
 ------------------
 
@@ -99,12 +95,13 @@ Pressure-velocity coupling:
 ### Computational Cost (hh:mm:ss)
 Wall clock time:
 
-Simulation time:
+Simulation time: 1 minute, 15 seconds
 
 Number of CPUs (MPI Processes):
 
 CPU cost (Number of CPUs * Wall clock time / Simulation time / Total cells):
 
+![image](https://github.com/MaCFP/macfp-db/assets/53606808/f86b4fc9-998e-4525-8022-f89a2f0b4ff8)
 ------------------
 
 ### Averaging period
@@ -116,7 +113,7 @@ CPU cost (Number of CPUs * Wall clock time / Simulation time / Total cells):
 ------------------
 
 ### Relevant publications
-1. Pub 1
-
-2. Pub 2
+1. Li, J., et al. (2014). "Gasification experiments for pyrolysis model parameterization and validation." International Journal of Heat and Mass Transfer 77: 738-744.
+2. Li, J. and S. I. Stoliarov (2013). "Measurement of kinetics and thermodynamics of the thermal degradation for non-charring polymers." Combustion and flame 160(7): 1287-1297.
+3. Riccio, A., et al. (2014). "Simulating the response of composite plates to fire." Applied Composite Materials 21: 511-524.
 
